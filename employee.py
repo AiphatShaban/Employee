@@ -8,7 +8,7 @@ class Employee:
         self.gender = gender
         self.salary = salary
     def __str__(self) :
-        return f'name = {self.name} {self.age} {self.gender} {self.salary}' 
+        return f'name :{self.name} \nAge :{self.age} \nGender :{self.gender} \nSalary : {self.salary}' 
 
 Employee1 = Employee(
         str(input('Enter employee name:')),
